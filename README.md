@@ -4,7 +4,6 @@ A management system of hospital database(Sql Server)
 
 ---
 
-[toc]
 
 # 一、题目需求说明
 
