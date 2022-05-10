@@ -1,5 +1,5 @@
 ---
-A management system of hospital database(Sql Server)
+基于Sql Server和Qt的医院数据库管理系统，本系统尚未完全开发完成，已经完成了大部分功能。
 
 
 ---
@@ -31,14 +31,8 @@ A management system of hospital database(Sql Server)
 
 - 病房的属性有病房号和病房地址。
 
-  在软件powerdesigner中建立概念模型，概念模型如下图所示。
-
-
-
- 对数据建立概念模型后，我们需要将其转化为关系模型，通过powerdesigner     
- 中关系转化功能，将概念模型转化为关系模型，关系模型如下图所示。
-
-
+  在软件powerdesigner中建立概念模型，对数据建立概念模型后，将其转化为关系模型，通过powerdesigner     
+ 中关系转化功能，将概念模型转化为关系模型。
 
 # 三、系统设计
 
