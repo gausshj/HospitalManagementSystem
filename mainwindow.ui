@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuManagement">
+    <property name="title">
+     <string>Management</string>
+    </property>
+    <widget class="QMenu" name="menuInsert">
+     <property name="title">
+      <string>Insert</string>
+     </property>
+     <addaction name="actionIDoctor"/>
+     <addaction name="actionIOffice"/>
+     <addaction name="actionIPatient"/>
+     <addaction name="actionIWard"/>
+    </widget>
+    <widget class="QMenu" name="menuDelete">
+     <property name="title">
+      <string>Delete</string>
+     </property>
+     <addaction name="actionDDoctor"/>
+     <addaction name="actionDOffice"/>
+     <addaction name="actionDPatient"/>
+     <addaction name="actionDWard"/>
+    </widget>
+    <widget class="QMenu" name="menuModify">
+     <property name="title">
+      <string>Modify</string>
+     </property>
+     <addaction name="actionMDoctor"/>
+     <addaction name="actionMOffice"/>
+     <addaction name="actionMPatient"/>
+     <addaction name="actionMWard"/>
+    </widget>
+    <widget class="QMenu" name="menuQuery">
+     <property name="title">
+      <string>Query</string>
+     </property>
+     <addaction name="actionQDoctor"/>
+     <addaction name="actionQOffice"/>
+     <addaction name="actionQPatient"/>
+     <addaction name="actionQWard"/>
+    </widget>
+    <addaction name="menuInsert"/>
+    <addaction name="menuDelete"/>
+    <addaction name="menuModify"/>
+    <addaction name="menuQuery"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+   <addaction name="menuManagement"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionAbout">
+   <property name="text">
+    <string>About</string>
+   </property>
+  </action>
+  <action name="actionIDoctor">
+   <property name="text">
+    <string>Doctor</string>
+   </property>
+  </action>
+  <action name="actionIOffice">
+   <property name="text">
+    <string>Office</string>
+   </property>
+  </action>
+  <action name="actionIPatient">
+   <property name="text">
+    <string>Patient</string>
+   </property>
+  </action>
+  <action name="actionIWard">
+   <property name="text">
+    <string>Ward</string>
+   </property>
+  </action>
+  <action name="actionDDoctor">
+   <property name="text">
+    <string>Doctor</string>
+   </property>
+  </action>
+  <action name="actionDOffice">
+   <property name="text">
+    <string>Office</string>
+   </property>
+  </action>
+  <action name="actionDPatient">
+   <property name="text">
+    <string>Patient</string>
+   </property>
+  </action>
+  <action name="actionDWard">
+   <property name="text">
+    <string>Ward</string>
+   </property>
+  </action>
+  <action name="actionMDoctor">
+   <property name="text">
+    <string>Doctor</string>
+   </property>
+  </action>
+  <action name="actionMOffice">
+   <property name="text">
+    <string>Office</string>
+   </property>
+  </action>
+  <action name="actionMPatient">
+   <property name="text">
+    <string>Patient</string>
+   </property>
+  </action>
+  <action name="actionMWard">
+   <property name="text">
+    <string>Ward</string>
+   </property>
+  </action>
+  <action name="actionQDoctor">
+   <property name="text">
+    <string>Doctor</string>
+   </property>
+  </action>
+  <action name="actionQOffice">
+   <property name="text">
+    <string>Office</string>
+   </property>
+  </action>
+  <action name="actionQPatient">
+   <property name="text">
+    <string>Patient</string>
+   </property>
+  </action>
+  <action name="actionQWard">
+   <property name="text">
+    <string>Ward</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
